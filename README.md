@@ -5,6 +5,7 @@ A Verilog project to control an alphanumeric LCD (16x2) using an FPGA board (DE2
 ## 👨‍💻 Author
 **Le Minh Tri**  
 MSSV: 22680551
+
 https://github.com/minhtrile2004
 
 ## 📷 Demo
