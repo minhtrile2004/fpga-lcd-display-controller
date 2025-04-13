@@ -1,6 +1,6 @@
 # FPGA LCD Display Controller
 
-A Verilog project to control an alphanumeric LCD (16x2) using an FPGA board (DE2-115 or similar). The display shows a student name and ID number, with a blinking backlight effect every 0.5s after data is displayed.
+A Verilog project to control an alphanumeric LCD (16x2) using an FPGA board (DE2-115). The display shows a student name and ID number, with a blinking backlight effect every 0.5s after data is displayed.
 
 ## 👨‍💻 Author
 **Le Minh Tri**  
