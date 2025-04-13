@@ -50,7 +50,7 @@ module LCD(
 	// Blink LCD ON/OFF sau khi hiện đủ nội dung
 	always @(posedge CLOCK_50) begin
 		if (state >= 6'h20) begin
-			if (blink_cnt < 24'd25000000) // 0.5s với CLOCK_50 = 50MHz
+			if (blink_cnt < 24'd12500000) // 0.5s với CLOCK_50 = 50MHz
 				blink_cnt <= blink_cnt + 1;
 			else begin
 				blink_cnt <= 0;
